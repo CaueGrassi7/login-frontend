@@ -1,4 +1,4 @@
-@import "../../../styles/variable.scss";
+@import "../../../styles/variables.scss";
 
 main {
   display: flex;
@@ -73,6 +73,10 @@ main {
       background-color: transparent;
       padding: 12px 24px;
       cursor: pointer;
+
+      &:disabled {
+        opacity: 0.8;
+    }
 
       &.btn-primary {
         background-color: $primary-color;
